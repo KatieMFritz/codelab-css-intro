@@ -1,0 +1,19 @@
+body {
+  max-width: 800px;
+  margin: 1em auto;
+  background: #eee;
+  font-family: Verdana, sans-serif;
+}
+
+header {
+  padding: 1em;
+}
+
+h1 {
+  color: purple;
+}
+
+main {
+  background: #fff;
+  padding: 1em;
+}
