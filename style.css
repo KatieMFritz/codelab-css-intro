@@ -3,6 +3,14 @@ body {
   margin: 1em auto;
   background: #eee;
   font-family: Verdana, sans-serif;
+  font-size: 1.1em;
+  line-height: 1.2em;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 header {
@@ -16,4 +24,17 @@ h1 {
 main {
   background: #fff;
   padding: 1em;
+}
+
+section {
+  display: block;
+  border: 1px dotted #ccc;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+
+img {
+  max-width: 200px;
+  margin-bottom: 1em;
 }
